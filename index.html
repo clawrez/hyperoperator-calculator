@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <title>Hyperoperators Calculator</title>
+        <link rel="icon" type="image/x-icon" href="o.ico">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="ExpantaNum.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="main.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="exponentiation">
+            <input id="input1" type="number"> 
+             ↑ <sup><input id="operator" name="operator" type="number"></sup>
+                <!-- <option value="hyper3">↑</option>
+                <option value="hyper4">↑↑</option>
+                <option value="hyper5">↑↑↑</option>
+            </select>  -->
+            <input id="input2" type="number"> = <p id="output">0</p> <button id="solve">Solve</button>
+        </div>
+        <br>
+        <div>
+            <p>This calculator uses <a href="https://googology.fandom.com/wiki/Arrow_notation">up-arrow notation</a> to represent the selected operator.</p><br><br>
+            <p>ex. 2↑<sup>2</sup>4 = 2↑↑4 = <sup>4</sup>2 = 2<sup>2<sup>2<sup>2</sup></sup></sup> = 65536</p><br><br>
+            <p>For information on how this calculator displays results, refer to the <a href="https://naruyoko.github.io/ExpantaNum.js/explanation.html">ExpantaNum explanation document</a>.
+            <br>For more information on hyper operators, go <a href="https://googology.fandom.com/wiki/Hyper_operator">here</a>.
+            <br>Try not to go <i>too</i> large. This will slow down the page significantly.</p>
+        </div>
+    </body>
+</html>
